@@ -1,4 +1,4 @@
-package com.yakubozten.Controller;
+package com.yakubozten.Api;
 
 import com.yakubozten.entity.kullanici;
 import com.yakubozten.repository.KullaniciRepository;

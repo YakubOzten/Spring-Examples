@@ -1,4 +1,4 @@
-package com.yakubozten.model;
+package com.yakubozten.entity;
 
 import java.io.Serializable;
 import java.util.Date;

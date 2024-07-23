@@ -1,14 +1,10 @@
 package com.yakubozten.producer;
 
-import com.yakubozten.model.Notification;
-import jakarta.annotation.PostConstruct;
+import com.yakubozten.entity.Notification;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
-import java.util.Date;
-import java.util.UUID;
 
 
 @Service

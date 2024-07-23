@@ -1,6 +1,6 @@
 package com.yakubozten.listener;
 
-import com.yakubozten.model.Notification;
+import com.yakubozten.entity.Notification;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 
