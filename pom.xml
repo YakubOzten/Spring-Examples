@@ -22,6 +22,8 @@
 		<module>spring-boot-api-doc</module>
 		<module>spring-mongo-rest-api</module>
 		<module>spring-boot-rabbitmq</module>
+		<module>spring-boot-dockerization</module>
+		<module>spring-boot-aop</module>
 	</modules>
 
 

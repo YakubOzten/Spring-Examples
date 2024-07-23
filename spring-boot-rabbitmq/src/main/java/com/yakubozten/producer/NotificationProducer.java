@@ -18,15 +18,15 @@ public class NotificationProducer {
     @Value("${sr.rabbit.exchange.name}")
     private  String exchangeName;
 
-     @PostConstruct
-    public  void init(){
-         Notification notification=new Notification();
-         notification.setNotificationId(UUID.randomUUID().toString());
-         notification.setCreatedAt(new Date());
-         notification.setMessage("Yakub Ozten hosgeldin dünya.");
-         notification.setSeen(Boolean.FALSE);
-             sendToQueue(notification);
-    }
+//     @PostConstruct
+//    public  void init(){
+//         Notification notification=new Notification();
+//         notification.setNotificationId(UUID.randomUUID().toString());
+//         notification.setCreatedAt(new Date());
+//         notification.setMessage("Yakub Ozten hosgeldin dünya.");
+//         notification.setSeen(Boolean.FALSE);
+//             sendToQueue(notification);
+//    }
 
 
     @Autowired
