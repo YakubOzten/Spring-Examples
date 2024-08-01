@@ -33,6 +33,7 @@
 		<module>spring-boot-fileupload</module>
 		<module>spring-boot-kafka</module>
 		<module>spring-boot-flyway</module>
+		<module>spring-boot-versioning</module>
 	</modules>
 
 
