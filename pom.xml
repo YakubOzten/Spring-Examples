@@ -35,6 +35,7 @@
 		<module>spring-boot-flyway</module>
 		<module>spring-boot-versioning</module>
 		<module>spring-boot-expection-handling</module>
+		<module>spring-boot-hazelcast-cache</module>
 	</modules>
 
 
