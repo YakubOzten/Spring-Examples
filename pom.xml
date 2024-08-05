@@ -36,6 +36,9 @@
 		<module>spring-boot-versioning</module>
 		<module>spring-boot-expection-handling</module>
 		<module>spring-boot-hazelcast-cache</module>
+		<module>spring-boot-webflux</module>
+		<module>spring-boot-logging</module>
+		<module>spring-boot-autoBirthdaymessage</module>
 	</modules>
 
 
